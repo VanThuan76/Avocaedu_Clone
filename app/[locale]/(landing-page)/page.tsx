@@ -15,6 +15,7 @@ import { IResult } from '@/@types/avocaedu-type'
 import { URL_API } from '@/shared/constants'
 import { categoryAvocaedu } from '@/shared/constants/category-avocaedu'
 import HiringSection from './_components/hiring'
+import ScrollRevealWrapper from '@/components/scroll-reveal-wrapper'
 
 const LandingPage = () => {
   const { data } = useFetchData<IResult[]>(URL_API.CATEGORY_COURSE);
@@ -22,13 +23,25 @@ const LandingPage = () => {
   return (
     <div className='min-h-screen max-w-screen mx-auto'>
       <Navbar />
-      <BannerSection />
+      <ScrollRevealWrapper sectionCode="BANNER">
+        <BannerSection />
+      </ScrollRevealWrapper>
       <PartnersSection />
-      <Fat1000Section courses={data && data.find(item => item.name === categoryAvocaedu.fat1000)?.course} />
-      <AiAppstoreSection courses={data && data.find(item => item.name === categoryAvocaedu.aiAppstore)?.course} />
-      <ProjectOpeningSection />
-      <InstructorsSection />
-      <HiringSection />
+      <ScrollRevealWrapper sectionCode="Fat1000">
+        <Fat1000Section courses={data && data.find(item => item.name === categoryAvocaedu.fat1000)?.course} />
+      </ScrollRevealWrapper>
+      <ScrollRevealWrapper sectionCode="AiAppstore">
+        <AiAppstoreSection courses={data && data.find(item => item.name === categoryAvocaedu.aiAppstore)?.course} />
+      </ScrollRevealWrapper>
+      <ScrollRevealWrapper sectionCode="ProjectOpening">
+        <ProjectOpeningSection />
+      </ScrollRevealWrapper>
+      <ScrollRevealWrapper sectionCode="Instructors">
+        <InstructorsSection />
+      </ScrollRevealWrapper>
+      <ScrollRevealWrapper sectionCode="Hiring">
+        <HiringSection />
+      </ScrollRevealWrapper>
       <Footer />
     </div>
   )

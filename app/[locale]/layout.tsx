@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import './globals.css'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import Script from 'next/script'
 import { ThemeProvider } from '@/components/theme-provider'
-const inter = Inter({ subsets: ['latin'] })
+const inter = Nunito({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Avoca Education',
@@ -23,6 +23,7 @@ export default async function RootLayout({
   params: { locale: string }
 }>) {
   const translate = await getMessages()
+
   return (
     <html lang={locale}>
        <link rel="icon" href="/favicon.ico" sizes="any" />

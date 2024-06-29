@@ -14,7 +14,7 @@ const AiAppstoreSection = ({ courses }: AiAppstoreSectionProps) => {
     const fixDescriptionSlug = 'chuong-trinh-marketing-fundamental' //Fix UX/UI
 
     return (
-        <section className='max-w-[1440px] mx-auto px-4 md:px-12 my-4 md:my-16'>
+        <section id="AiAppstore" className='max-w-[1440px] mx-auto px-4 md:px-12 my-4 md:my-16'>
             <div className='w-full flex flex-col gap-2 justify-start items-start'>
                 <TitleSection title={t('homeAiAppstore.title')} className="justify-start items-start" />
                 <div className='mt-5 flex justify-start items-start gap-2'>

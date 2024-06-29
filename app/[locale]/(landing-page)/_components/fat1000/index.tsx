@@ -13,7 +13,7 @@ const Fat1000Section = ({ courses }: Fat1000SectionProps) => {
     const t = useTranslations('LandingPage');
 
     return (
-        <section className='max-w-[1440px] mx-auto px-4 md:px-12 my-4 md:my-16'>
+        <section id="Fat1000" className='max-w-[1440px] mx-auto px-4 md:px-12 my-4 md:my-16'>
             <div className='w-full flex flex-col gap-2 justify-start items-start'>
                 <TitleSection title={t('homeFat1000.title')} className="justify-start items-start" />
                 <div className='mt-5 flex justify-start items-start gap-2'>

@@ -6,7 +6,10 @@
       "enroll": "Đăng ký ngay",
       "notFound": "Không tìm thấy",
       "contactUs": "Liên hệ với chúng tôi",
-      "open": "Mở"
+      "open": "Mở",
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Hệ thống"
     },
     "menu": {
       "fat1000": "FAT1000",

@@ -10,7 +10,7 @@ const BannerSection = () => {
   }
 
   return (
-    <section className='w-full snap-x-mandatory bottom-24 scrollbar-none relative flex overflow-hidden'>
+    <section id="BANNER" className='w-full snap-x-mandatory bottom-24 scrollbar-none relative flex overflow-hidden'>
       <div className='w-full flex justify-between items-center mx-auto'>
         <BannerContent data={{ title: t("homeBanner.title"), description: t("homeBanner.description"), placeholderSearch: t("homeBanner.placeholderSearch"), slogan: t("homeBanner.slogan"), image: "/dataImages/home/backdrop_home.png" }} text={t("common.search")} handleClick={onSearch} />
       </div>

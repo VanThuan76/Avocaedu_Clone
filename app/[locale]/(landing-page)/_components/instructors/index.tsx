@@ -38,7 +38,7 @@ const InstructorsSection = () => {
         },
     ];
     return (
-        <section className='max-w-[1440px] mx-auto px-4 md:px-12 py-5 md:py-10'>
+        <section id="Instructors" className='max-w-[1440px] mx-auto px-4 md:px-12 py-5 md:py-10'>
             <div className='w-full flex flex-col justify-around items-center text-center'>
                 <TitleSection title={t('homeInstructors.title')} />
                 <div className='mt-10 hidden w-full items-start justify-between md:flex px-12'>

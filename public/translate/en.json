@@ -6,7 +6,10 @@
       "enroll": "Enroll now",
       "notFound": "Not Found",
       "contactUs": "Contact Us",
-      "open": "Open"
+      "open": "Open",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
     },
     "menu": {
       "fat1000": "FAT1000",

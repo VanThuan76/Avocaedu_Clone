@@ -34,7 +34,7 @@ const BannerContent = ({ data, text, handleClick }: Props) => {
     return (
         <div
             style={{ backgroundImage: `url('/dataImages/home/background_home.png')`, backgroundSize: "cover", backgroundPosition: "center" }}
-            className={`w-full min-h-screen grid grid-cols-2 justify-between items-center leading-[90%] tracking-wide mx-auto px-8 md:px-36 gap-0 md:gap-5`}
+            className={`w-full min-h-screen grid grid-cols-2 justify-between items-center leading-[90%] tracking-wide mx-auto px-8 md:px-36 gap-0 md:gap-5 text-black`}
         >
             <div className='flex flex-col justify-start gap-3 items-start col-span-2 lg:col-span-1'>
                 <motion.div className='text-base md:text-lg font-base'>

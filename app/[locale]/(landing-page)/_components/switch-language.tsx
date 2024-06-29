@@ -11,22 +11,23 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import { cn } from '@/shared/lib/utils'
 
 
 const LANGUAGES = {
   vi: {
-    flag: '/flag-vi.svg',
+    flag: '/flag-vi.png',
     code: 'vi',
     name: 'Tiếng Việt'
   },
   en: {
-    flag: '/flag-en.svg',
+    flag: '/flag-en.png',
     code: 'en',
     name: 'English'
   }
 }
 
-const SwitchLanguage = () => {
+const SwitchLanguage = ({ className }: { className: string }) => {
   const locale = useLocale()
   const router = useRouter()
   const pathname = usePathname()
@@ -37,7 +38,7 @@ const SwitchLanguage = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild className='flex items-center gap-1 focus-visible:ring-0 focus-visible:ring-offset-0'>
-        <Button size="sm" variant="outline" className='bg-transparent hover:bg-transparent dark:hover:text-slate-500 border-none text-black dark:text-white'>
+        <Button size="sm" variant="outline" className={cn('bg-transparent hover:bg-transparent dark:hover:text-slate-500 border-none', className)}>
           {
             <Image
               width={24}
