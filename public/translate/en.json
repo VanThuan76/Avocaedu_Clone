@@ -1,0 +1,107 @@
+{
+  "LandingPage": {
+    "common": {
+      "avocaEdu": "AvocaEdu",
+      "search": "Search",
+      "enroll": "Enroll now",
+      "notFound": "Not Found",
+      "contactUs": "Contact Us",
+      "open": "Open"
+    },
+    "menu": {
+      "fat1000": "FAT1000",
+      "aiAppstore": "AI Appstore",
+      "projectsOpening": "Projects Opening",
+      "hiring": "Hiring",
+      "becomeInstructor": "Become instructor"
+    },
+    "homeBanner": {
+      "slogan": "Best online reskilling in AI platform",
+      "title": "Achieve people-market fit",
+      "description": "Own your future learning new AI skills online",
+      "placeholderSearch": "Search courses, test, instructors ...",
+      "start": "Start"
+    },
+    "homePartners": {
+      "title": "Our partners"
+    },
+    "homeFat1000": {
+      "title": "FAT1000 Program - Future AI Talents",
+      "description": "The FAT1000 program is an initiative to reskill Vietnamese workers with the goal of providing 1000 high-quality AI developers, ready to meet the increasing demand of Vietnamese information technology and the artificial intelligence industry."
+    },
+    "homeAiAppstore": {
+      "title": "AI So Easy",
+      "description": "Democratizing AI for Business for Everyone"
+    },
+    "homeProjectOpening": {
+      "content": "Upskill your team with AvocaEdu Business"
+    },
+    "homeInstructors": {
+      "title": "Instructors",
+      "data": {
+        "data_1": {
+          "name": "HAI NGUYEN",
+          "position": "CEO AVOCAAI & AVOCAEDU"
+        },
+        "data_2": {
+          "name": "ANDY NGUYỄN",
+          "position": "CO-FOUNDER ALVINAI, ALLYAI"
+        },
+        "data_3": {
+          "name": "PHD.MINH LE",
+          "position": "TRAINING DIRECTOR"
+        },
+        "data_4": {
+          "name": "MSC.TUAN NGUYEN",
+          "position": "SENIOR INSTRUCTORS"
+        },
+        "data_5": {
+          "name": "NAM TRAN",
+          "position": "CEO CHATFLY AI"
+        }
+      }
+    },
+    "homeHiring": {
+      "title": "Become an instructor",
+      "description": "Instructors from around the world teach millions of learners on AvocaEdu. We provide the tools and skills to teach what you love.",
+      "content_btn_1": "Start teaching today",
+      "content_btn_2": "Log in as instructor"
+    },
+    "course": {
+      "lessons": "Lessons",
+      "hours": "hours",
+      "startDate": "Start date",
+      "thisCourseInclude": "This course include",
+      "mentoringGroup": "Mentoring group",
+      "buyForMe": "Buy for me",
+      "buyForTeam": "Buy for team",
+      "applyScholarship": "Apply for scholarship (upto 50%)",
+      "haveSpin": "You have 0 spins",
+      "survey": "Survey",
+      "candidateSurvey": "Candidate Survey",
+      "contentMission": "[Attractive Income] Recruitment for Business Development Positions in Da Nang",
+      "point": "Points",
+      "spin": "Spins",
+      "lootBox": "Loot box",
+      "mission": "Misson",
+      "document": "Document",
+      "enterDocument": "Enter Document",
+      "clickDocument": "Click open to documents",
+      "overview": "Overview",
+      "outcome": "Outcome",
+      "rewards": "Rewards"
+    },
+    "footer": {
+      "title": "Avoca Education is an affordable online learning platform that helps everyone reskill and upskill in AI.",
+      "aboutUs": "About us",
+      "contactUs": "Contact us",
+      "course": "Course",
+      "aiAppstore": "AI Appstore",
+      "fat1000": "FAT1000",
+      "tests": "Tests",
+      "projectOpening": "Project Opening",
+      "hiring": "Hiring",
+      "becomeInstructor": "Become Instructor"
+    }
+  }
+}

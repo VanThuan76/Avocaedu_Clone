@@ -1,0 +1,107 @@
+{
+  "LandingPage": {
+    "common": {
+      "avocaEdu": "AvocaEdu",
+      "search": "Tìm kiếm",
+      "enroll": "Đăng ký ngay",
+      "notFound": "Không tìm thấy",
+      "contactUs": "Liên hệ với chúng tôi",
+      "open": "Mở"
+    },
+    "menu": {
+      "fat1000": "FAT1000",
+      "aiAppstore": "Cửa hàng ứng dụng AI",
+      "projectsOpening": "Dự án mở",
+      "hiring": "Thuê",
+      "becomeInstructor": "Trở thành giảng viên"
+    },
+    "homeBanner": {
+      "slogan": "Đào tạo lại kỹ năng trực tuyến tốt nhất trong nền tảng AI",
+      "title": "Đạt được phù hợp với thị trường con người",
+      "description": "Sở hữu tương lai của bạn bằng cách học các kỹ năng AI mới trực tuyến",
+      "placeholderSearch": "Tìm kiếm các khóa học, bài kiểm tra...",
+      "start": "Bắt đầu"
+    },
+    "homePartners": {
+      "title": "Đối tác của chúng tôi"
+    },
+    "homeFat1000": {
+      "title": "Chương trình FAT1000 - Tài năng AI tương lai",
+      "description": "Chương trình FAT1000 là sáng kiến nhằm đào tạo lại kỹ năng cho người lao động Việt Nam với mục tiêu cung cấp 1000 nhà phát triển AI chất lượng cao, sẵn sàng đáp ứng nhu cầu ngày càng cao của công nghệ thông tin Việt Nam và ngành trí tuệ nhân tạo."
+    },
+    "homeAiAppstore": {
+      "title": "AI thật dễ dàng",
+      "description": "Dân chủ hóa AI cho doanh nghiệp cho mọi người"
+    },
+    "homeProjectOpening": {
+      "content": "Nâng cao kỹ năng cho nhóm của bạn với AvocaEdu Business"
+    },
+    "homeInstructors": {
+      "title": "Instructors",
+      "data": {
+        "data_1": {
+          "name": "HAI NGUYỄN",
+          "position": "Giám đốc điều hành AVOCAAI & AVOCAEDU"
+        },
+        "data_2": {
+          "name": "ANDY NGUYỄN",
+          "position": "Đồng sáng lập ALVINAI, ALLYAI"
+        },
+        "data_3": {
+          "name": "TS. MINH LÊ",
+          "position": "Giám đốc đào tạo"
+        },
+        "data_4": {
+          "name": "TS. TUẤN NGUYỄN",
+          "position": "Giảng viên chính"
+        },
+        "data_5": {
+          "name": "NAM TRẦN",
+          "position": "Giám đốc CHATFLY AI"
+        }
+      }
+    },
+    "homeHiring": {
+      "title": "Trở thành giảng viên",
+      "description": "Các giảng viên từ khắp nơi trên thế giới giảng dạy cho hàng triệu học viên trên AvocaEdu. Chúng tôi cung cấp các công cụ và kỹ năng để bạn giảng dạy những gì bạn yêu thích.",
+      "content_btn_1": "Bắt đầu giảng dạy hôm nay",
+      "content_btn_2": "Đăng nhập với tư cách giảng viên"
+    },
+    "course": {
+      "lessons": "Bài học",
+      "hours": "giờ",
+      "startDate": "Ngày bắt đầu",
+      "thisCourseInclude": "Khoá học này bao gồm",
+      "mentoringGroup": "Nhóm cố vấn",
+      "buyForMe": "Mua cho tôi",
+      "buyForTeam": "Mua cho team",
+      "applyScholarship": "Xin học bổng (lên tới 50%)",
+      "haveSpin": "Bạn có 0 vòng quay",
+      "survey": "Cuộc khảo sát",
+      "candidateSurvey": "Khảo sát ứng viên",
+      "contentMission": "[Thu Nhập Hấp Dẫn] Tuyển Dụng Vị Trí Phát Triển Kinh Doanh Tại Đà Nẵng",
+      "point": "Điểm",
+      "spin": "Quay",
+      "lootBox": "Hộp chiến lợi phẩm",
+      "mission": "Nhiệm vụ",
+      "document": "Tài liệu",
+      "enterDocument": "Nhập tài liệu",
+      "clickDocument": "Bấm mở tài liệu",
+      "overview": "Tổng quan",
+      "outcome": "Đầu ra",
+      "rewards": "Giải thưởng"
+    },
+    "footer": {
+      "title": "Avoca Education là một nền tảng học tập trực tuyến giá cả phải chăng giúp mọi người tái kỹ năng và nâng cao kỹ năng trong lĩnh vực Trí tuệ nhân tạo.",
+      "aboutUs": "Về chúng tôi",
+      "contactUs": "Liên hệ",
+      "course": "Khóa học",
+      "aiAppstore": "Ứng dụng AI",
+      "fat1000": "FAT1000",
+      "tests": "Bài kiểm tra",
+      "projectOpening": "Mở dự án",
+      "hiring": "Tuyển dụng",
+      "becomeInstructor": "Trở thành Giảng viên"
+    }
+  }
+}
