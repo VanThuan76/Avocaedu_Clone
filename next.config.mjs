@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin()
 const hostnames = ['avoca-prod.s3.amazonaws.com'];
 
 const nextConfig = {
-  distDir: 'build',
+  distDir: '.next',
   swcMinify: true,
   reactStrictMode: true,
   typescript: {
